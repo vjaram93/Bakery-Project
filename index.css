@@ -1,0 +1,78 @@
+header {
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  display: flex;
+  color: #155252;
+  font-weight: bold;
+  font-size: 200%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 2ch;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url(wallpaper.jpg);
+  background-repeat: repeat;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 1rem;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  gap: 4ch;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1ch;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 2rem;
+  list-style-type: none;
+  li {
+    background: #497875;
+    color: #ffffff;
+    border-radius: 6%;
+    width: 4.375rem;
+    padding: 0.625rem;
+  }
+}
+
+footer {
+  color: #f3ffff;
+  background-color: #252548;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+a {
+  color: #1b1b2b;
+}
+
+a:hover {
+  color: #59c4a2c7;
+}
+
+.testimonial {
+  background-color: #dbdbeb;
+  padding: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
