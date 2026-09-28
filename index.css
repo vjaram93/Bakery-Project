@@ -64,6 +64,7 @@ footer {
 
 a {
   color: #1b1b2b;
+  text-decoration: none;
 }
 
 a:hover {
